@@ -16,7 +16,8 @@
 
 	<properties>
 		<java.version>11</java.version>
-	</properties>
+		<spring-boot.build-image.imageName>nectiadocker2000/${project.artifactId}:${project.version}</spring-boot.build-image.imageName>
+  	</properties>
 
 	<dependencies>
 		<dependency>
